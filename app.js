@@ -7,4 +7,8 @@ roq.localize( __dirname + '/app/i18n');
 
 
 //
-roq.run( __dirname);
+if( process.env.NODE_ENV=='test'){
+  module.exports = roq.run( __dirname);
+}else {
+  roq.run( __dirname);
+}

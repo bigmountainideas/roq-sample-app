@@ -1,5 +1,10 @@
-var roq = require('../index');
+var roq = require('../index')
+;
+
+
+roq.static(   __dirname + '/app/static');
+roq.localize( __dirname + '/app/i18n');
 
 
 //
-roq.start();
+roq.run( __dirname);

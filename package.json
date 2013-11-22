@@ -4,6 +4,10 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "roq": "0.x"
+    "roq": "0.x",
+
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3"
   }
 }
